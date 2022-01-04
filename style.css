@@ -4,13 +4,15 @@ body{
 }
 h1{
     font-size: 50px;
-    color: rgba(181, 255, 8, 0.685);
+    color: #000000;
 }
-.name-color{color: darkviolet;}
+.name-color{color: rgb(231, 102, 124);}
 
 .world{color: deepskyblue}
 
-section{display: flex;}
+section{display: flex;
+    margin-bottom: 100px;
+}
 
 .half-width{
     width: 50%;
@@ -32,4 +34,18 @@ section{display: flex;}
 .top-banner{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.resume-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue, skyblue);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: oldlace;
+    font-weight: 700;
+    
 }
